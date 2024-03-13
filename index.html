@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍 데모</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--메뉴-->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--메뉴 섹션-->
+    <section class="main">
+      <div class="contain">
+
+        <h1>웹프로그래밍 (web programming)</h1>
+        <h3>
+          웹 개발자를 위한 올라인 매뉴얼:
+          <a href="https://www.w3schools.com">W3Schools: 웹프로그래밍매뉴얼 </a>
+        </h3>
+        <p>
+          웹프로래밍의 3가지 요소:
+          <a href="https://www.w3schools.com/html/default.asp">Html</a>
+          <a href="https://www.w3schools.com/html/default.asp">CSS</a>
+          <a href="https://www.w3schools.com/html/default.asp">Javacript</a>
+        </p>
+        <h3>현재시간: <span id="time"></span></h3>
+        </h3>
+        <hr/>
+        <p>
+          배경색 바꾸기;
+          <button onclick="pink()"> pink</button>
+          <button onclick="blue()"> blue</button>
+          <button onclick="black()"> black</button>
+          <button onclick="red()"> red</button>
+          <button onclick="흰색()"> 흰색</button>
+        </p>
+        <p> 배워봅시다:
+            <button onmouseover="showhtml()"onmouseout= "hide()">Html</button> </button>
+            <button onmouseover="showcss()"onmouseout= "hide()">css</button> </button>
+            <button onmouseover="showjava()"onmouseout= "hide()">java</button> </button>
+        </p>
+        <hr>
+        <div> 
+          <img id="fig" height="200px" />
+          <p id="desc"></p>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
