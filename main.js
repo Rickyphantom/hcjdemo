@@ -1,38 +1,34 @@
-document.getElementById('time').innerHTML = new Date().toLocaleTimeString();
+document.getElementById('time').innerHTML = new Date().toLocaleString();
+
 function pink() {
   document.body.style.backgroundColor = 'pink';
 }
-function blue() {
-  document.body.style.backgroundColor = 'blue';
+function lightblue() {
+  document.body.style.backgroundColor = 'lightblue';
+}
+function yellow() {
+  document.body.style.backgroundColor = 'yellow';
+}
+function linen() {
+  document.body.style.backgroundColor = 'linen';
 }
 
-function black() {
-  document.body.style.backgroundColor = 'black';
-}
-
-function red() {
-  document.body.style.backgroundColor = 'red';
-}
 function showhtml() {
   document.getElementById('fig').src = 'img/html.png';
   document.getElementById('desc').innerHTML =
-    'HTML은 구조적 웹문서를 작성하는데 사용하는 마크업언어이다';
+    '<b>HTML5</b>는 구조적 웹문서를 작성하는데 사용하는 마크업 언어이다.';
 }
 function showcss() {
   document.getElementById('fig').src = 'img/css.png';
   document.getElementById('desc').innerHTML =
-    'css는 HTML 문서의 스타일을 지정하기 위한 언어이다.';
+    '<b>CSS3</b>는 HTML 문서의 스타일을 지정하기 위한 언어이다.';
 }
-function showjava() {
-  document.getElementById('fig').src = 'img/java.png';
+function showjs() {
+  document.getElementById('fig').src = 'img/javascript.png';
   document.getElementById('desc').innerHTML =
-    'Javascript는 웹을 위한 프로그래밍 언어이며 웹문서에서 동작을 실행할 수 있게 한다.';
+    '<b>Javascript</b>는 웹을 위한 프로그래밍 언어이며 웹문서에서 동작을 실행할 수 있게 한다.';
 }
 function hide() {
   document.getElementById('fig').src = '';
   document.getElementById('desc').innerHTML = '';
-}
-
-function naver() {
-  <a href="https://www.naver.com">Html</a>;
 }
