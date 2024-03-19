@@ -13,9 +13,6 @@ function black() {
 function red() {
   document.body.style.backgroundColor = 'red';
 }
-function 흰색() {
-  document.body.style.backgroundColor = 'white';
-}
 function showhtml() {
   document.getElementById('fig').src = 'img/html.png';
   document.getElementById('desc').innerHTML =
