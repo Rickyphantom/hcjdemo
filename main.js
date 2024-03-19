@@ -3,14 +3,14 @@ document.getElementById('time').innerHTML = new Date().toLocaleString();
 function pink() {
   document.body.style.backgroundColor = 'pink';
 }
-function lightblue() {
-  document.body.style.backgroundColor = 'lightblue';
+function blue() {
+  document.body.style.backgroundColor = 'blue';
 }
-function yellow() {
-  document.body.style.backgroundColor = 'yellow';
+function black() {
+  document.body.style.backgroundColor = 'black';
 }
-function linen() {
-  document.body.style.backgroundColor = 'linen';
+function white() {
+  document.body.style.backgroundColor = 'white';
 }
 
 function showhtml() {
@@ -24,7 +24,7 @@ function showcss() {
     '<b>CSS3</b>는 HTML 문서의 스타일을 지정하기 위한 언어이다.';
 }
 function showjs() {
-  document.getElementById('fig').src = 'img/javascript.png';
+  document.getElementById('fig').src = 'img/java.png';
   document.getElementById('desc').innerHTML =
     '<b>Javascript</b>는 웹을 위한 프로그래밍 언어이며 웹문서에서 동작을 실행할 수 있게 한다.';
 }
