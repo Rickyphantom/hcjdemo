@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍 데모</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 메뉴 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="formtest.html">play</a>
+          </li> 
+        </ul>
+      </div>
+    </nav>
+    <form action="text">
+      <form action="/action_page.php">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="" /><br />
+        <label for="password">비밀번호:</label><br />
+        <input type="password" id="password" name="password" value="" /><br />
+        <fieldset>
+        <input type="checkbox" value="h_5" /> 선물용 3KG
+        <input type="checkbox" value="h_5" /> 선물용 5KG
+        <input type="checkbox" value="h_5" /> 가정용 3KG
+        <input type="checkbox" value="h_5" /> 가정용 5KG
+      </label>
+      <p>포장선택</p>
+      <label for="">
+        <input type="radio" name="gift" value="yes"/> 선물포장
+      </label>
+      <label for="">
+        <input type="radio" name="gift" value="no"/> 포장안함
+      </label>
+      </fieldset>
+      <label>선물용 3KG</label>
+      <input type="number" min="0" max="5">
+      <input type="range" min="0" max="10" value="1" step="2">
+      <input type="date" name="date" />
+      <input type="month" name="date" />
+      <input type="week" name="date" />
+      <input type="time" name="date" />
+
+      <br>
+      <input type="submit" value="제출하기">
+      <input type="reset" value="초기화">
+
+  </body>
+</html>
