@@ -6,7 +6,7 @@
 body {
   font-size: 16px;
   line-height: 1.5;
-  color: rgb(2, 181, 44);
+  color: rgb(181, 2, 65);
   background-color: rgb(250, 234, 230);
 }
 
@@ -60,7 +60,7 @@ ul {
 }
 
 main {
-  color: blue;
+  color: rgb(201, 20, 20);
   line-height: 2;
 }
 
