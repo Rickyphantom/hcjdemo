@@ -29,36 +29,85 @@
     </nav>
     <form action="text">
       <form action="/action_page.php">
-        <label for="fname">First name:</label><br />
-        <input type="text" id="fname" name="fname" value="" /><br />
-        <label for="lname">Last name:</label><br />
-        <input type="text" id="lname" name="lname" value="" /><br />
-        <label for="password">비밀번호:</label><br />
-        <input type="password" id="password" name="password" value="" /><br />
+<p>주문</p>
         <fieldset>
-        <input type="checkbox" value="h_5" /> 선물용 3KG
-        <input type="checkbox" value="h_5" /> 선물용 5KG
-        <input type="checkbox" value="h_5" /> 가정용 3KG
-        <input type="checkbox" value="h_5" /> 가정용 5KG
+          <p>CPU(인텔)</p>
+        <input type="checkbox" value="h_5" /> I5 13400F
+        <input type="checkbox" value="h_5" /> I5 13500
+        <input type="checkbox" value="h_5" /> I7 13700F
+        <input type="checkbox" value="h_5" /> I9 13900F
+      </fieldset>
+      <fieldset>
+        <p>CPU(AMD)</p>
+      <input type="checkbox" value="h_5" /> 4500
+      <input type="checkbox" value="h_5" /> 4650G
+      <input type="checkbox" value="h_5" /> 5600G
+      <input type="checkbox" value="h_5" /> 5600
+      <input type="checkbox" value="h_5" /> 7600(라파엘)
+    </fieldset>
+    <fieldset>
+      <p>메인보드(인텔)</p>
+    <input type="checkbox" value="h_5" /> H610(ASUS)
+    <input type="checkbox" value="h_5" /> B660(ASUS)
+    <input type="checkbox" value="h_5" /> B760(ASUS)
+  </fieldset>
+  <fieldset>
+    <p>메인보드(AMD)</p>
+  <input type="checkbox" value="h_5" /> A520(MSI)
+  <input type="checkbox" value="h_5" /> H620(MSI) 7600(라파엘)CPU전용
+</fieldset>
+<fieldset>
+<p>램</p>
+  <input type="checkbox" value="h_5" /> 삼성전자8GB
+  <input type="checkbox" value="h_5" /> 삼성전자8GBX2
+  <input type="checkbox" value="h_5" /> 삼성전자16GB
+  <input type="checkbox" value="h_5" /> 삼성전자16GBX2
+</fieldset>
+<fieldset>
+<p>SSD</p>
+  <input type="checkbox" value="h_5" /> 삼성전자 980 M.2 NVMe 1TB
+  <input type="checkbox" value="h_5" /> 삼성전자 980 M.2 NVMe 2TB
+  <input type="checkbox" value="h_5" /> 하이닉스 P31 M.2 NVMe 1TB
+  <input type="checkbox" value="h_5" /> 하이닉스 P41 M.2 NVMe 1TB
+</fieldset>
+<fieldset>
+<p>케이스</p>
+  <input type="checkbox" value="h_5" /> DLM600(블랙)
+  <input type="checkbox" value="h_5" /> DLM600-MAX(블랙)
+  <input type="checkbox" value="h_5" /> DLM600(화이트)
+  <input type="checkbox" value="h_5" /> DLM600-MAX(화이트)
+</fieldset>
+<fieldset>
+<p>파워</p>
+  <input type="checkbox" value="h_5" /> 마이크로닉스 600w
+  <input type="checkbox" value="h_5" /> 마이크로닉스 600w (화이트)
+  <input type="checkbox" value="h_5" /> 마이크로닉스 700w
+  <input type="checkbox" value="h_5" /> 마이크로닉스 800w
+</fieldset>
+</fieldset>
+<p>OS</p>
+  <input type="checkbox" value="h_5" /> 윈도우11 홈DSP
+  <input type="checkbox" value="h_5" /> 윈도우11 프로 DSP
+  <input type="checkbox" value="h_5" /> 윈도우11홈 FPP
+  <input type="checkbox" value="h_5" /> 윈도우11 프로 FPP
+  <input type="checkbox" value="h_5" /> 한컴오피스2022(처음사용자용)
+</fieldset>
+      <fieldset>
       </label>
       <p>포장선택</p>
       <label for="">
-        <input type="radio" name="gift" value="yes"/> 선물포장
+        <input type="radio" name="gift" value="yes"/> 안심포장
       </label>
       <label for="">
-        <input type="radio" name="gift" value="no"/> 포장안함
+        <input type="radio" name="gift" value="no"/> 불량포장
       </label>
-      </fieldset>
-      <label>선물용 3KG</label>
-      <input type="number" min="0" max="5">
-      <input type="range" min="0" max="10" value="1" step="2">
+    </fieldset>
+      <label>갯수</label>
+      <input type="number" min="0" max="999">
+      <p>배달날짜</p>
       <input type="date" name="date" />
-      <input type="month" name="date" />
-      <input type="week" name="date" />
-      <input type="time" name="date" />
-
       <br>
-      <input type="submit" value="제출하기">
+      <input type="submit" value="주문하기">
       <input type="reset" value="초기화">
 
   </body>
