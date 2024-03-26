@@ -78,3 +78,22 @@ button:hover {
   color: #d44040;
   background-color: azure;
 }
+#time {
+  padding: 4px 2px;
+  background-color: yellow;
+}
+td,
+th {
+  border: 1px solid red;
+  text-align: center;
+  padding: 8px;
+}
+h4 {
+  color: black;
+}
+.redcolor {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  color: darkblue;
+  font-weight: 200px;
+}
